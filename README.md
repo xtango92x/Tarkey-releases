@@ -14,28 +14,37 @@
   &nbsp;·&nbsp; Windows 10/11 &nbsp;·&nbsp; Free &nbsp;·&nbsp; English / Italiano
 </p>
 
-![Tarkey on Customs: quests on the left, extracts, keys and objectives on the map](images/map.png)
+![Tarkey on Customs: quests on the left, the live map in the middle, prices and ammo on the right](images/map.png)
 
 ## What it does
 
-- **Quests for the map you're on.** It shows only the quests you can actually do right now, based on your level, faction and finished quests. Each objective is a marker on the map. Click an objective to jump to it, and track progress with − / +.
+**On the map**
+- **Full-screen live map** with two side columns you can fold away: quests and items on the left, prices and ammo on the right.
 - **Live position.** Press the in-game screenshot key and your arrow shows up on the map, pointing where you look. The arrow goes from green to red as the position gets older.
 - **Map detected automatically.** When a raid starts, Tarkey switches to the right map by itself, PMC or Scav.
-- **Quests tick themselves.** Finished quests are read from the game logs. You can also import your history in one click.
 - **Extracts and transits.** PMC, Scav and co-op extracts with their names. Hover an extract to see what it needs, like *Pay 20,000 ₽* or a specific item.
-- **Keys and keycards.** Every locked door with the key or keycard that opens it. Labs keycards use their real color.
+- **Keys and keycards.** Every locked door with the key or keycard that opens it. Labs keycards use their real color, ⚡ marks doors that need power.
+- **Where to find keys.** Click a door and the fixed spots where its key lies on the ground light up on the map, floor included.
 - **Bosses, mines and snipers.** Boss spawn points with chances, minefields and Scav sniper zones.
-- **PMC and Scav spawns.** You can switch them on to see where you can start the raid.
-- **Building floors.** On multi-level maps the right floor comes up by itself.
-- **Items to hand in and Hideout.** Every item your quests and Hideout upgrades need, with a counter for how many you already have.
-- **Price check.** Type an item name to see the flea price and the trader that pays the most.
+- **PMC and Scav spawns**, and **building floors** that switch by themselves as you move.
+
+**Quests and items**
+- **Quests for the map you're on**, only the ones you can actually do now, with every objective as a marker and progress you track with − / +.
+- **Quests tick themselves.** Completed and failed quests are read from the game logs, live or in one click for your whole history. Lightkeeper and BTR Driver quests, which the game never logs, are clearly marked as *by hand*.
+- **Items to hand in and Hideout**, with a counter for how many you already have.
+
+**Prices and ammo**
+- **Price check.** Lowest and average flea price, the cheapest trader to buy from and the best one to sell to, with the best option highlighted. PvE and PvP are separate markets.
+- **Ammo chart.** Every caliber with its rounds named as in the game (PPBS, BS, M995…), colored from *top* to *leave it*, so you know at a glance what to pick up. Hide calibers or colors you don't care about. Open a caliber for penetration (6 armor-class shields), damage, armor damage, speed, fragmentation, tracers and where to get it: raid only, trader, or flea as a pack.
+
+![Ammo chart and the 5.45x39mm details](images/ammo.png)
+
+**Squad and the rest**
 - **Squad mode.** Friends with the same party code see each other on the map, can drop markers like *Enemy here* or *Going here*, and see the quests they have in common. No accounts needed, and positions are encrypted with the party code.
-- **Compact mode.** A small always-on-top map window, for borderless-windowed play.
-- **Auto-updates.** New versions download by themselves. You can turn this off in Settings so a download never slows down your raid.
+- **PvE / PvP** badge always visible: click it for Settings, hold it to switch mode and reload everything.
+- **Auto-updates** with a progress bar. You can turn automatic downloads off so an update never slows down your raid.
 
-![Labs keycards in their real colors](images/labs.png)
-
-![Items to hand in, with counters](images/items.png)
+![Click a door to see where its key lies on the ground](images/keys.png)
 
 ## Is it safe? Will I get banned?
 
@@ -73,10 +82,12 @@ Without the code, nobody can read them. Treat the code like a password.
 
 **Tarkey** è un'app da secondo schermo per Escape from Tarkov:
 - missioni della mappa su cui sei, con gli obiettivi sulla cartina;
-- uscite con i requisiti, chiavi e tessere, boss, mine e cecchini;
+- uscite con i requisiti, chiavi e tessere (e dove trovare le chiavi a terra), boss, mine e cecchini;
 - la tua posizione col tasto screenshot;
 - il party con gli amici;
-- gli oggetti da consegnare per missioni e Rifugio.
+- gli oggetti da consegnare per missioni e Rifugio;
+- prezzi del mercato e dei mercanti, separati per PvE e PvP;
+- la tabella delle munizioni, colorate da "top" a "da lasciare", per capire al volo cosa raccogliere.
 
 **Non tocca mai il gioco**: legge solo gli screenshot e i file di log che Tarkov salva sul disco.
 
